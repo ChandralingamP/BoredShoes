@@ -1,0 +1,165 @@
+.right-gallery{
+    width:74%;
+    margin: .5%;
+    padding: 0px 3rem 0px 1rem;
+}
+.right-gallery-header{
+    display: flex;
+    justify-content: space-between;
+}
+.right-gallery-header h2{
+    color: rgba(154, 22, 250, 1);
+    font-size: 2rem;
+}
+.right-gallery-header h2 > span{
+    color: rgba(128, 128, 128, 0.863);
+}
+.right-gallery-header{
+    border-bottom: solid 1px black;
+}
+.right-gallery-header > .title{
+    display: flex;
+}
+.right-gallery-header > .title > p{
+    font-size: 2rem;
+    padding: 0px 8px;
+    cursor:help;
+}
+
+.right-gallery-header >button{
+    cursor: pointer;
+    height: 2rem;
+    width: 7rem;
+    background-color: rgba(154, 22, 250, 0.2);
+    padding: 5px 15px;
+    text-align: center;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.right-gallery-header >button >h3{
+    
+}
+.right-gallery-header >button>img{
+    height: 18px;
+    margin-right: 5px;
+    width:18px;
+}
+.filter-count > span{
+    font-size: 1em;
+    display: inline-block;
+    background-color: rgba(232, 200, 255, 1);
+    border-radius: 5px;
+    padding: 0.1em 0.4em;
+    font-weight:400;
+    margin-bottom: 1em;
+}
+.filter-count{
+    margin-top: 2rem;
+    padding: 2rem 0 0 0;
+    font-weight:500;
+}
+.card >img{
+    width: 100%;
+}
+.cards{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center  ;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+
+
+
+
+
+
+
+
+.left-gallery{
+    /* margin: 5rem;     */
+    padding: 0em 1em 0em 2em;
+    width: 24%;
+    margin: .5%;
+    border-right: solid 1px black;
+
+}
+
+.left-gallery > h2{
+    color: rgba(154, 22, 250, 1);
+    font-size: 2rem;
+    border-bottom: solid 1px black;
+}
+.showcase> .carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    transition: 0.2s ease;
+
+}
+.showcase> .carousel> img{
+    width: 100%;
+    /* height: 35rem; */
+}
+.showcase {
+    margin-top: 2em;
+    width: 100%;
+    padding: 2em 0 0 0 ;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+.showcase > p{
+    font-weight:500;
+}
+.showcase > .label{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight:500;
+}
+
+.countno{
+    font-size: 1em;
+    display: inline-block;
+    background-color: rgba(232, 200, 255, 1);
+    border-radius: 5px;
+    padding: 0.1em 0.4em;
+    font-weight:400;
+    margin-bottom: 1em;
+    
+}
+
+.sc-hd{
+    margin-left: 0.4em;
+    margin-bottom: 1em;
+}
+.carousel  .arrow{
+   color: white;
+    position: absolute;
+    top:50%;
+    font-size: 40px;
+    font-weight: 500;
+}
+.carousel:hover .arrow{
+    display: block;
+}
+.carousel .right{
+
+    position: absolute;
+    cursor: pointer;
+    left: 10%;
+}
+
+.carousel .left{
+    position: absolute;
+    cursor: pointer;
+    right: 10%;
+}

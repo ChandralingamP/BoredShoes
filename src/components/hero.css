@@ -1,0 +1,125 @@
+.nav-bar{
+   
+    width: 90%;
+    padding: 2rem 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-bar-items{
+    display:flex;
+}
+.nav-bar-items li{
+    text-align: center;
+    list-style: none;
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    padding: 16px 30px;
+}
+.nav-bar>li > a{
+    text-decoration: none;
+    font-family: poppins;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.nav-bar ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+    background: whitesmoke;
+    display: block;
+    margin: auto;
+}
+.nav-bar ul li:hover::after{
+    width: 100%;
+}
+
+.nav-bar-items>li > a:link,
+.nav-bar-items>li > a:visited{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+.contact-btn{
+    padding:1em;
+    background-color: rgba(0,0,0,0);
+    border: solid 1px white;
+    color: white;
+}
+
+
+.hero-text{
+    
+    width: 100%;
+    color: aliceblue;
+    top: 55%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.hero-text >h1{
+    font-size: 11rem;
+    font-family: tbf;
+}
+.hero-text > h4{
+    margin-top: -18px;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.hero-text>a > button{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-top: 35px;
+    padding: 10px 32px;
+    border:2px solid #9a16fa ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
+.hero-text>a > button:hover{
+    color: white;
+    background-color:  #9a16fa;
+    border: 2px solid#9a16fa;
+    transition: 200ms;
+}
+.hero>.black >a > img{
+    height: 20px;
+    position: absolute;
+    bottom: 2%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+.black{
+    min-height: 100vh;
+   
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
